@@ -550,7 +550,7 @@ func (t *Text) ToPaths() ([]*Path, []color.RGBA) {
 }
 
 // RenderDecoration renders the text decorations using the RenderPath method of the Renderer.
-// TODO: check text decoration z-positions when text lines are overlapping https://github.com/tdewolff/canvas/pull/40#pullrequestreview-400951503
+// TODO: check text decoration z-positions when text lines are overlapping https://github.com/dtrenin7/canvas/pull/40#pullrequestreview-400951503
 // TODO: check compliance with https://drafts.csswg.org/css-text-decor-4/#text-line-constancy
 func (t *Text) RenderDecoration(r Renderer, m Matrix) {
 	style := DefaultStyle

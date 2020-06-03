@@ -11,8 +11,8 @@ import (
 	"image/png"
 	"syscall/js"
 
-	"github.com/tdewolff/canvas"
-	"github.com/tdewolff/canvas/htmlcanvas"
+	"github.com/dtrenin7/canvas"
+	"github.com/dtrenin7/canvas/htmlcanvas"
 )
 
 var fontFamily *canvas.FontFamily

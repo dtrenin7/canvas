@@ -14,8 +14,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/tdewolff/canvas"
-	canvasFont "github.com/tdewolff/canvas/font"
+	"github.com/dtrenin7/canvas"
+	canvasFont "github.com/dtrenin7/canvas/font"
 )
 
 type PDF struct {

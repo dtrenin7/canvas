@@ -7,7 +7,7 @@ import (
 	"math"
 	"syscall/js"
 
-	"github.com/tdewolff/canvas"
+	"github.com/dtrenin7/canvas"
 )
 
 type htmlCanvas struct {

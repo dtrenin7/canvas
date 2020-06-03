@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/tdewolff/canvas"
+	"github.com/dtrenin7/canvas"
 	"github.com/tdewolff/test"
 )
 

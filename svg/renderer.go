@@ -12,7 +12,7 @@ import (
 	"math"
 	"strings"
 
-	"github.com/tdewolff/canvas"
+	"github.com/dtrenin7/canvas"
 )
 
 type SVG struct {

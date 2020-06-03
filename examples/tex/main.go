@@ -6,7 +6,7 @@ import (
 	"image/png"
 	"os"
 
-	"github.com/tdewolff/canvas"
+	"github.com/dtrenin7/canvas"
 )
 
 var fontFamily *canvas.FontFamily

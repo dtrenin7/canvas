@@ -1,6 +1,6 @@
 ![Canvas](https://raw.githubusercontent.com/tdewolff/canvas/master/examples/title/out.png)
 
-[![GoDoc](http://godoc.org/github.com/tdewolff/canvas?status.svg)](http://godoc.org/github.com/tdewolff/canvas) [![Build Status](https://travis-ci.org/tdewolff/canvas.svg?branch=master)](https://travis-ci.org/tdewolff/canvas) [![Go Report Card](https://goreportcard.com/badge/github.com/tdewolff/canvas)](https://goreportcard.com/report/github.com/tdewolff/canvas) [![Coverage Status](https://coveralls.io/repos/github/tdewolff/canvas/badge.svg?branch=master)](https://coveralls.io/github/tdewolff/canvas?branch=master)
+[![GoDoc](http://godoc.org/github.com/dtrenin7/canvas?status.svg)](http://godoc.org/github.com/dtrenin7/canvas) [![Build Status](https://travis-ci.org/tdewolff/canvas.svg?branch=master)](https://travis-ci.org/tdewolff/canvas) [![Go Report Card](https://goreportcard.com/badge/github.com/dtrenin7/canvas)](https://goreportcard.com/report/github.com/dtrenin7/canvas) [![Coverage Status](https://coveralls.io/repos/github/tdewolff/canvas/badge.svg?branch=master)](https://coveralls.io/github/tdewolff/canvas?branch=master)
 
 Canvas is a common vector drawing target that can output SVG, PDF, EPS, raster images (PNG, JPG, GIF, ...), HTML Canvas through WASM, and OpenGL. It has a wide range of path manipulation functionality such as flattening, stroking and dashing implemented. Additionally, it has a good text formatter and embeds fonts (TTF, OTF, WOFF, or WOFF2) or converts them to outlines. It can be considered a Cairo or node-canvas alternative in Go. See the example below in Fig. 1 and Fig. 2 for an overview of the functionality.
 
@@ -25,28 +25,28 @@ With modules enabled, add the following imports and run the project with `go get
 
 ```go
 import (
-    "github.com/tdewolff/canvas"
+    "github.com/dtrenin7/canvas"
 )
 ```
 
 #### Examples
-**[Preview](https://github.com/tdewolff/canvas/tree/master/examples/preview)**: canvas preview (as shown above) showing most of the functionality and exporting as PNG, SVG, PDF and EPS. It shows image and text rendering as well as LaTeX support and path functionality.
+**[Preview](https://github.com/dtrenin7/canvas/tree/master/examples/preview)**: canvas preview (as shown above) showing most of the functionality and exporting as PNG, SVG, PDF and EPS. It shows image and text rendering as well as LaTeX support and path functionality.
 
-**[Map](https://github.com/tdewolff/canvas/tree/master/examples/map)**: data is loaded from Open Street Map of the city centre of Amsterdam and rendered to a PNG.
+**[Map](https://github.com/dtrenin7/canvas/tree/master/examples/map)**: data is loaded from Open Street Map of the city centre of Amsterdam and rendered to a PNG.
 
-**[Graph](https://github.com/tdewolff/canvas/tree/master/examples/graph)**: a simple graph is being plotted using the CO2 data from the Mauna Loa observatory.
+**[Graph](https://github.com/dtrenin7/canvas/tree/master/examples/graph)**: a simple graph is being plotted using the CO2 data from the Mauna Loa observatory.
 
-**[Text document](https://github.com/tdewolff/canvas/tree/master/examples/document)**: a simple text document is rendered to PNG.
+**[Text document](https://github.com/dtrenin7/canvas/tree/master/examples/document)**: a simple text document is rendered to PNG.
 
-**[HTML Canvas](https://github.com/tdewolff/canvas/tree/master/examples/html-canvas)**: using WASM, a HTML Canvas is used as target. [Live demo](https://tdewolff.github.io/canvas/examples/html-canvas/index.html).
+**[HTML Canvas](https://github.com/dtrenin7/canvas/tree/master/examples/html-canvas)**: using WASM, a HTML Canvas is used as target. [Live demo](https://tdewolff.github.io/canvas/examples/html-canvas/index.html).
 
-**[TeX/PGF](https://github.com/tdewolff/canvas/tree/master/examples/tex)**: using the PGF (TikZ) LaTeX package, the output can be directly included in the main TeX file.
+**[TeX/PGF](https://github.com/dtrenin7/canvas/tree/master/examples/tex)**: using the PGF (TikZ) LaTeX package, the output can be directly included in the main TeX file.
 
-**[OpenGL](https://github.com/tdewolff/canvas/tree/master/examples/opengl)**: rendering example to an OpenGL target (WIP).
+**[OpenGL](https://github.com/dtrenin7/canvas/tree/master/examples/opengl)**: rendering example to an OpenGL target (WIP).
 
-**[go-chart](https://github.com/tdewolff/canvas/tree/master/examples/go-chart)**: using the [go-chart](https://github.com/wcharczuk/go-chart) library a financial graph is plotted.
+**[go-chart](https://github.com/dtrenin7/canvas/tree/master/examples/go-chart)**: using the [go-chart](https://github.com/wcharczuk/go-chart) library a financial graph is plotted.
 
-**[gonum/plot](https://github.com/tdewolff/canvas/tree/master/examples/gonum-plot)**: using the [gonum/plot](https://github.com/gonum/plot) library an example is plotted.
+**[gonum/plot](https://github.com/dtrenin7/canvas/tree/master/examples/gonum-plot)**: using the [gonum/plot](https://github.com/gonum/plot) library an example is plotted.
 
 ### Articles
 * [Numerically stable quadratic formula](https://math.stackexchange.com/questions/866331/numerically-stable-algorithm-for-solving-the-quadratic-equation-when-a-is-very/2007723#2007723)
@@ -282,7 +282,7 @@ Where the provided string gets inserted into the following document template:
 ```
 
 ### Examples
-See https://github.com/tdewolff/canvas/tree/master/examples for a working examples.
+See https://github.com/dtrenin7/canvas/tree/master/examples for a working examples.
 
 ## License
 Released under the [MIT license](LICENSE.md).

@@ -6,7 +6,7 @@ import (
 	"image/png"
 	"io"
 
-	"github.com/tdewolff/canvas"
+	"github.com/dtrenin7/canvas"
 )
 
 // PNGWriter writes the canvas as a PNG file

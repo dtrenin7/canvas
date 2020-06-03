@@ -8,7 +8,7 @@ import (
 	"math"
 	"strings"
 
-	"github.com/tdewolff/canvas"
+	"github.com/dtrenin7/canvas"
 	"github.com/tdewolff/minify/v2"
 )
 

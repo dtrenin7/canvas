@@ -3,7 +3,7 @@ package tex
 import (
 	"io"
 
-	"github.com/tdewolff/canvas"
+	"github.com/dtrenin7/canvas"
 )
 
 // Writer writes the canvas as a TeX file using PGF (\usepackage{pgf}).

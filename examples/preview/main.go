@@ -6,11 +6,11 @@ import (
 	"image/png"
 	"os"
 
-	"github.com/tdewolff/canvas"
-	"github.com/tdewolff/canvas/eps"
-	"github.com/tdewolff/canvas/pdf"
-	"github.com/tdewolff/canvas/rasterizer"
-	"github.com/tdewolff/canvas/svg"
+	"github.com/dtrenin7/canvas"
+	"github.com/dtrenin7/canvas/eps"
+	"github.com/dtrenin7/canvas/pdf"
+	"github.com/dtrenin7/canvas/rasterizer"
+	"github.com/dtrenin7/canvas/svg"
 )
 
 var fontFamily *canvas.FontFamily

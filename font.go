@@ -5,7 +5,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	canvasFont "github.com/tdewolff/canvas/font"
+	canvasFont "github.com/dtrenin7/canvas/font"
 	"golang.org/x/image/font"
 	"golang.org/x/image/font/sfnt"
 )

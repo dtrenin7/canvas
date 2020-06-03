@@ -9,8 +9,8 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/tdewolff/canvas"
-	"github.com/tdewolff/canvas/rasterizer"
+	"github.com/dtrenin7/canvas"
+	"github.com/dtrenin7/canvas/rasterizer"
 )
 
 var fontFamily *canvas.FontFamily
