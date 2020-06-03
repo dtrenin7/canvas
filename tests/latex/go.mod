@@ -1,4 +1,4 @@
-module github.com/tdewolff/fuzz/canvas/latex
+module github.com/dtrenin7/fuzz/canvas/latex
 
 go 1.13
 

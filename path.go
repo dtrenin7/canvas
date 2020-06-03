@@ -6,7 +6,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/tdewolff/parse/v2/strconv"
+	"github.com/dtrenin7/parse/v2/strconv"
 	"golang.org/x/image/vector"
 )
 

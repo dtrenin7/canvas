@@ -12,12 +12,12 @@ import (
 	"path"
 	"strings"
 
-	"github.com/tdewolff/parse/v2/strconv"
-	"github.com/tdewolff/parse/v2/xml"
+	"github.com/dtrenin7/parse/v2/strconv"
+	"github.com/dtrenin7/parse/v2/xml"
 )
 
 var execCommand = exec.Command
-var tempDir = path.Join(os.TempDir(), "tdewolff-canvas")
+var tempDir = path.Join(os.TempDir(), "dtrenin7-canvas")
 
 // ParseLaTeX parses a LaTeX formatted string into a path. It requires latex and dvisvgm to be installed on the machine.
 // The content is surrounded by

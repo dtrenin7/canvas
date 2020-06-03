@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/dtrenin7/canvas"
-	"github.com/tdewolff/test"
+	"github.com/dtrenin7/test"
 )
 
 func TestPDF(t *testing.T) {

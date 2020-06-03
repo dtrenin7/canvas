@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/dtrenin7/canvas"
-	"github.com/tdewolff/minify/v2"
+	"github.com/dtrenin7/minify/v2"
 )
 
 ////////////////////////////////////////////////////////////////

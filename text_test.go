@@ -3,7 +3,7 @@ package canvas
 import (
 	"testing"
 
-	"github.com/tdewolff/test"
+	"github.com/dtrenin7/test"
 )
 
 func TestTextLine(t *testing.T) {

@@ -11,9 +11,9 @@ require (
 	github.com/paulmach/orb v0.1.3
 	github.com/paulmach/osm v0.0.1
 	github.com/pkg/browser v0.0.0-20180916011732-0a3d74bf9ce4
-	github.com/tdewolff/minify/v2 v2.7.1-0.20200112204046-70870d25a935
-	github.com/tdewolff/parse/v2 v2.4.2
-	github.com/tdewolff/test v1.0.6
+	github.com/dtrenin7/minify/v2 v2.7.1-0.20200112204046-70870d25a935
+	github.com/dtrenin7/parse/v2 v2.4.2
+	github.com/dtrenin7/test v1.0.6
 	github.com/wcharczuk/go-chart v2.0.2-0.20191206192251-962b9abdec2b+incompatible
 	golang.org/x/image v0.0.0-20191214001246-9130b4cfad52
 	golang.org/x/text v0.3.2 // indirect

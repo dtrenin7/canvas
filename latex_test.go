@@ -8,7 +8,7 @@ import (
 	"path"
 	"testing"
 
-	"github.com/tdewolff/test"
+	"github.com/dtrenin7/test"
 )
 
 // from os/exec/exec_test.go

@@ -540,7 +540,7 @@ func (w *pdfWriter) Close() error {
 
 	// metadata
 	info := pdfDict{
-		"Producer":     "tdewolff/canvas",
+		"Producer":     "dtrenin7/canvas",
 		"CreationDate": time.Now().Format("D:20060102150405Z0700"),
 	}
 	if w.title != "" {

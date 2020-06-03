@@ -1,4 +1,4 @@
-module github.com/tdewolff/fuzz/canvas/font
+module github.com/dtrenin7/fuzz/canvas/font
 
 go 1.13
 

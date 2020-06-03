@@ -7,7 +7,7 @@ import (
 	"math"
 	"strings"
 
-	"github.com/tdewolff/minify/v2"
+	"github.com/dtrenin7/minify/v2"
 	"golang.org/x/image/math/fixed"
 )
 

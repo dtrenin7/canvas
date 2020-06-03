@@ -5,7 +5,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/tdewolff/test"
+	"github.com/dtrenin7/test"
 )
 
 func TestPathStroke(t *testing.T) {

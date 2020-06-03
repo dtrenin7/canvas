@@ -4,7 +4,7 @@ import (
 	"image"
 	"testing"
 
-	"github.com/tdewolff/test"
+	"github.com/dtrenin7/test"
 )
 
 func TestCanvas(t *testing.T) {

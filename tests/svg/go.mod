@@ -1,4 +1,4 @@
-module github.com/tdewolff/fuzz/canvas/svg
+module github.com/dtrenin7/fuzz/canvas/svg
 
 go 1.13
 
