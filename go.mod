@@ -4,8 +4,8 @@ require (
 	github.com/ByteArena/poly2tri-go v0.0.0-20170716161910-d102ad91854f
 	github.com/blend/go-sdk v2.0.0+incompatible // indirect
 	github.com/dtrenin7/minify/v2 v2.7.5
-  github.com/dtrenin7/parse/v2 v2.4.2-1
-  github.com/dtrenin7/test v1.0.6
+	github.com/dtrenin7/parse/v2 v2.4.2-1
+	github.com/dtrenin7/test v1.0.6
 	github.com/dsnet/compress v0.0.1
 	github.com/go-gl/gl v0.0.0-20190320180904-bf2b1f2f34d7
 	github.com/go-gl/glfw v0.0.0-20191125211704-12ad95a8df72
