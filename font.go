@@ -38,7 +38,7 @@ type Font struct {
 }
 
 func parseFont(name string, b []byte) (*Font, error) {
-	mimetype, err := canvasFont.Mimetype(b)
+	mimetype, err := canvasFont.MediaType(b)
 	if err != nil {
 		return nil, err
 	}

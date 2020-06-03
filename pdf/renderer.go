@@ -418,7 +418,7 @@ func (w *pdfWriter) getFont(font *canvas.Font) pdfRef {
 	mimetype, b := font.Raw()
 	if mimetype != "font/truetype" && mimetype != "font/opentype" {
 		var err error
-		b, mimetype, err = canvasFont.ToSFNT(b)
+		b, err = canvasFont.ToSFNT(b)
 		if err != nil {
 			panic(err)
 		}

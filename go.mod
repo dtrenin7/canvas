@@ -1,4 +1,4 @@
-module github.com/tdewolff/canvas
+module github.com/dtrenin7/canvas
 
 require (
 	github.com/ByteArena/poly2tri-go v0.0.0-20170716161910-d102ad91854f
